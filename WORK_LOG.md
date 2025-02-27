@@ -1,9 +1,9 @@
-Name: YOUR NAME HERE
+Name: SIERRA SHAW
 
-| Date    |  Time  |                                     Update |
-|:--------|:------:|-------------------------------------------:|
-| April 5 | 9-10pm | I tried to write abstract, efficient code. |
-|         |        |                                            |
+| Date   |     Time     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Update |
+|:-------|:------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Feb 25 |  11-11:55am  | During class, I ideated a solution to this problem with my group that used tabulation. The gist was to create a 2D array that represented on the columns the letters of one string, and the rows the letters of the other string. If the letters matched during traversal, we would add 1 to the value saved in the spot diagonal to our current spot. If they didn't match, we would use the larger saved value between the spot above and to the right of the current string. We struggled with finding whether this was actually a correct algorithm to solve the pset or whether we just got lucky with a given case. |
+| Feb 26 | 9:20-10:30pm |                    I spent a solid amount of time trying to figure out how to prove that this solution is a working and true algorithm. What I do know is that the values I'm saving at a given point do prove the longest sequence to get to that given letter and that the way we're traversing it lets us look at previous spaces to find the previous max value and add to that. However, I can't fully find a way to prove our solution as foolproof, so I just started to try to code out what our concept was and passed all checks. I hope in class I can create a full proof that our solution will always work. |
 
 
 To add a new row to the table, click into a cell and then hit shift-enter.
